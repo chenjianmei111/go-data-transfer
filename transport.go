@@ -37,7 +37,7 @@ type EventsHandler interface {
 	OnDataQueued(chid ChannelID, link ipld.Link, size uint64) (Message, error)
 
 	// OnDataSent is called when we send data for the given channel ID
-	OnDataSent(chid ChannelID, link ipld.Link, size uint64) error
+	OnDataSent(chid ChannelID, link ipld.Link, size uint64) (bool, error)
 
 	// OnRequestReceived is called when we receive a new request to send data
 	// for the given channel ID

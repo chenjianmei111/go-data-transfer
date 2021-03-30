@@ -437,7 +437,7 @@ func (t *Transport) gsBlockSentHook(p peer.ID, request graphsync.RequestData, bl
 		return
 	}
 
-	if err := t.events.OnDataSent(chid, block.Link(), block.BlockSize()); err != nil {
+	if _, err := t.events.OnDataSent(chid, block.Link(), block.BlockSize()); err != nil {
 		log.Errorf("failed to process data sent: %+v", err)
 	}
 }

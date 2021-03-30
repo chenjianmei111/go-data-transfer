@@ -29,7 +29,7 @@ func (m *manager) OnChannelOpened(chid datatransfer.ChannelID) error {
 }
 
 func (m *manager) OnDataReceived(chid datatransfer.ChannelID, link ipld.Link, size uint64) error {
-	err := m.channels.DataReceived(chid, link.(cidlink.Link).Cid, size)
+	_, err := m.channels.DataReceived(chid, link.(cidlink.Link).Cid, size)
 	if err != nil {
 		return err
 	}
@@ -60,7 +60,8 @@ func (m *manager) OnDataReceived(chid datatransfer.ChannelID, link ipld.Link, si
 }
 
 func (m *manager) OnDataQueued(chid datatransfer.ChannelID, link ipld.Link, size uint64) (datatransfer.Message, error) {
-	if err := m.channels.DataQueued(chid, link.(cidlink.Link).Cid, size); err != nil {
+	sent, err := m.channels.DataQueued(chid, link.(cidlink.Link).Cid, size)
+	if err != nil {
 		return nil, err
 	}
 	if chid.Initiator != m.peerID {
@@ -69,7 +70,11 @@ func (m *manager) OnDataQueued(chid datatransfer.ChannelID, link ipld.Link, size
 		var handled bool
 		_ = m.revalidators.Each(func(_ datatransfer.TypeIdentifier, _ encoding.Decoder, processor registry.Processor) error {
 			revalidator := processor.(datatransfer.Revalidator)
-			handled, result, err = revalidator.OnPullDataSent(chid, size)
+			sz := size
+			if !sent {
+				sz = 0
+			}
+			handled, result, err = revalidator.OnPullDataSent(chid, sz)
 			if handled {
 				return errors.New("stop processing")
 			}
@@ -83,7 +88,7 @@ func (m *manager) OnDataQueued(chid datatransfer.ChannelID, link ipld.Link, size
 	return nil, nil
 }
 
-func (m *manager) OnDataSent(chid datatransfer.ChannelID, link ipld.Link, size uint64) error {
+func (m *manager) OnDataSent(chid datatransfer.ChannelID, link ipld.Link, size uint64) (bool, error) {
 	return m.channels.DataSent(chid, link.(cidlink.Link).Cid, size)
 }
 
