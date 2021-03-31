@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/filecoin-project/go-data-transfer/registry"
-	"github.com/filecoin-project/go-data-transfer/testutil"
+	"github.com/chenjianmei111/go-data-transfer/registry"
+	"github.com/chenjianmei111/go-data-transfer/testutil"
 )
 
 func TestRegistry(t *testing.T) {

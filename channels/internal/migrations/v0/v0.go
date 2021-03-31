@@ -5,7 +5,7 @@ import (
 	peer "github.com/libp2p/go-libp2p-core/peer"
 	cbg "github.com/whyrusleeping/cbor-gen"
 
-	datatransfer "github.com/filecoin-project/go-data-transfer"
+	datatransfer "github.com/chenjianmei111/go-data-transfer"
 )
 
 //go:generate cbor-gen-for ChannelState EncodedVoucher EncodedVoucherResult

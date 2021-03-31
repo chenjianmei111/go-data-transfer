@@ -13,8 +13,8 @@ import (
 	peer "github.com/libp2p/go-libp2p-core/peer"
 	"golang.org/x/xerrors"
 
-	datatransfer "github.com/filecoin-project/go-data-transfer"
-	"github.com/filecoin-project/go-data-transfer/transport/graphsync/extension"
+	datatransfer "github.com/chenjianmei111/go-data-transfer"
+	"github.com/chenjianmei111/go-data-transfer/transport/graphsync/extension"
 )
 
 var log = logging.Logger("dt_graphsync")

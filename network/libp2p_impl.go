@@ -14,9 +14,9 @@ import (
 	"github.com/libp2p/go-libp2p-core/protocol"
 	"golang.org/x/xerrors"
 
-	datatransfer "github.com/filecoin-project/go-data-transfer"
-	"github.com/filecoin-project/go-data-transfer/message"
-	"github.com/filecoin-project/go-data-transfer/message/message1_0"
+	datatransfer "github.com/chenjianmei111/go-data-transfer"
+	"github.com/chenjianmei111/go-data-transfer/message"
+	"github.com/chenjianmei111/go-data-transfer/message/message1_0"
 )
 
 var log = logging.Logger("data_transfer_network")

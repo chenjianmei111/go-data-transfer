@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"io"
 
-	datatransfer "github.com/filecoin-project/go-data-transfer"
-	internal "github.com/filecoin-project/go-data-transfer/channels/internal"
+	datatransfer "github.com/chenjianmei111/go-data-transfer"
+	internal "github.com/chenjianmei111/go-data-transfer/channels/internal"
 	cid "github.com/ipfs/go-cid"
 	peer "github.com/libp2p/go-libp2p-core/peer"
 	cbg "github.com/whyrusleeping/cbor-gen"

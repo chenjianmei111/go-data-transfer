@@ -11,10 +11,10 @@ import (
 	"github.com/libp2p/go-libp2p-core/peer"
 	"golang.org/x/xerrors"
 
-	datatransfer "github.com/filecoin-project/go-data-transfer"
-	"github.com/filecoin-project/go-data-transfer/channels"
-	"github.com/filecoin-project/go-data-transfer/encoding"
-	"github.com/filecoin-project/go-data-transfer/registry"
+	datatransfer "github.com/chenjianmei111/go-data-transfer"
+	"github.com/chenjianmei111/go-data-transfer/channels"
+	"github.com/chenjianmei111/go-data-transfer/encoding"
+	"github.com/chenjianmei111/go-data-transfer/registry"
 )
 
 func (m *manager) OnChannelOpened(chid datatransfer.ChannelID) error {

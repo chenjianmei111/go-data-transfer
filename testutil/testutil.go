@@ -17,7 +17,7 @@ import (
 	"github.com/libp2p/go-libp2p-core/peer"
 	"github.com/stretchr/testify/require"
 
-	datatransfer "github.com/filecoin-project/go-data-transfer"
+	datatransfer "github.com/chenjianmei111/go-data-transfer"
 )
 
 var blockGenerator = blocksutil.NewBlockGenerator()

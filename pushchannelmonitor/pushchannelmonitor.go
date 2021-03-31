@@ -8,8 +8,8 @@ import (
 
 	logging "github.com/ipfs/go-log/v2"
 
-	datatransfer "github.com/filecoin-project/go-data-transfer"
-	"github.com/filecoin-project/go-data-transfer/channels"
+	datatransfer "github.com/chenjianmei111/go-data-transfer"
+	"github.com/chenjianmei111/go-data-transfer/channels"
 )
 
 var log = logging.Logger("dt-pushchanmon")

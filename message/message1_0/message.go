@@ -7,7 +7,7 @@ import (
 	cbg "github.com/whyrusleeping/cbor-gen"
 	xerrors "golang.org/x/xerrors"
 
-	datatransfer "github.com/filecoin-project/go-data-transfer"
+	datatransfer "github.com/chenjianmei111/go-data-transfer"
 )
 
 // NewTransferRequest creates a transfer request for the 1_0 Data Transfer Protocol.

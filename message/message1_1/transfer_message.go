@@ -3,7 +3,7 @@ package message1_1
 import (
 	"io"
 
-	datatransfer "github.com/filecoin-project/go-data-transfer"
+	datatransfer "github.com/chenjianmei111/go-data-transfer"
 )
 
 //go:generate cbor-gen-for --map-encoding transferMessage1_1

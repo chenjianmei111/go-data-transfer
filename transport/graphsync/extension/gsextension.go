@@ -8,9 +8,9 @@ import (
 	"github.com/ipfs/go-graphsync"
 	"github.com/libp2p/go-libp2p-core/protocol"
 
-	datatransfer "github.com/filecoin-project/go-data-transfer"
-	"github.com/filecoin-project/go-data-transfer/message"
-	"github.com/filecoin-project/go-data-transfer/message/message1_0"
+	datatransfer "github.com/chenjianmei111/go-data-transfer"
+	"github.com/chenjianmei111/go-data-transfer/message"
+	"github.com/chenjianmei111/go-data-transfer/message/message1_0"
 )
 
 const (

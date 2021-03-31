@@ -7,9 +7,9 @@ import (
 	cbg "github.com/whyrusleeping/cbor-gen"
 	xerrors "golang.org/x/xerrors"
 
-	datatransfer "github.com/filecoin-project/go-data-transfer"
-	"github.com/filecoin-project/go-data-transfer/encoding"
-	"github.com/filecoin-project/go-data-transfer/message/types"
+	datatransfer "github.com/chenjianmei111/go-data-transfer"
+	"github.com/chenjianmei111/go-data-transfer/encoding"
+	"github.com/chenjianmei111/go-data-transfer/message/types"
 )
 
 //go:generate cbor-gen-for transferResponse

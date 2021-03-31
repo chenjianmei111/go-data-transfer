@@ -4,10 +4,10 @@ import (
 	logging "github.com/ipfs/go-log/v2"
 	cbg "github.com/whyrusleeping/cbor-gen"
 
-	"github.com/filecoin-project/go-statemachine/fsm"
+	"github.com/chenjianmei111/go-statemachine/fsm"
 
-	datatransfer "github.com/filecoin-project/go-data-transfer"
-	"github.com/filecoin-project/go-data-transfer/channels/internal"
+	datatransfer "github.com/chenjianmei111/go-data-transfer"
+	"github.com/chenjianmei111/go-data-transfer/channels/internal"
 )
 
 var log = logging.Logger("data-transfer")

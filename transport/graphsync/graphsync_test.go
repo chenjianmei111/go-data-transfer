@@ -16,11 +16,11 @@ import (
 	peer "github.com/libp2p/go-libp2p-core/peer"
 	"github.com/stretchr/testify/require"
 
-	datatransfer "github.com/filecoin-project/go-data-transfer"
-	"github.com/filecoin-project/go-data-transfer/message"
-	"github.com/filecoin-project/go-data-transfer/testutil"
-	. "github.com/filecoin-project/go-data-transfer/transport/graphsync"
-	"github.com/filecoin-project/go-data-transfer/transport/graphsync/extension"
+	datatransfer "github.com/chenjianmei111/go-data-transfer"
+	"github.com/chenjianmei111/go-data-transfer/message"
+	"github.com/chenjianmei111/go-data-transfer/testutil"
+	. "github.com/chenjianmei111/go-data-transfer/transport/graphsync"
+	"github.com/chenjianmei111/go-data-transfer/transport/graphsync/extension"
 )
 
 func TestManager(t *testing.T) {

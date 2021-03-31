@@ -30,10 +30,10 @@ import (
 	mocknet "github.com/libp2p/go-libp2p/p2p/net/mock"
 	"github.com/stretchr/testify/require"
 
-	datatransfer "github.com/filecoin-project/go-data-transfer"
-	"github.com/filecoin-project/go-data-transfer/benchmarks/testinstance"
-	tn "github.com/filecoin-project/go-data-transfer/benchmarks/testnet"
-	"github.com/filecoin-project/go-data-transfer/testutil"
+	datatransfer "github.com/chenjianmei111/go-data-transfer"
+	"github.com/chenjianmei111/go-data-transfer/benchmarks/testinstance"
+	tn "github.com/chenjianmei111/go-data-transfer/benchmarks/testnet"
+	"github.com/chenjianmei111/go-data-transfer/testutil"
 )
 
 const stdBlockSize = 8000

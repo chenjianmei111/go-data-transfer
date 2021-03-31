@@ -3,14 +3,14 @@ package migrations
 import (
 	peer "github.com/libp2p/go-libp2p-core/peer"
 
-	versioning "github.com/filecoin-project/go-ds-versioning/pkg"
-	"github.com/filecoin-project/go-ds-versioning/pkg/versioned"
+	versioning "github.com/chenjianmei111/go-ds-versioning/pkg"
+	"github.com/chenjianmei111/go-ds-versioning/pkg/versioned"
 
-	datatransfer "github.com/filecoin-project/go-data-transfer"
-	"github.com/filecoin-project/go-data-transfer/channels/internal"
-	v0 "github.com/filecoin-project/go-data-transfer/channels/internal/migrations/v0"
-	v1 "github.com/filecoin-project/go-data-transfer/channels/internal/migrations/v1"
-	"github.com/filecoin-project/go-data-transfer/cidlists"
+	datatransfer "github.com/chenjianmei111/go-data-transfer"
+	"github.com/chenjianmei111/go-data-transfer/channels/internal"
+	v0 "github.com/chenjianmei111/go-data-transfer/channels/internal/migrations/v0"
+	v1 "github.com/chenjianmei111/go-data-transfer/channels/internal/migrations/v1"
+	"github.com/chenjianmei111/go-data-transfer/cidlists"
 )
 
 // MigrateEncodedVoucher0To1 converts a tuple encoded voucher to a map encoded voucher

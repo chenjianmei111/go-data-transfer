@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-For reporting *critical* and *security* bugs, please consult our [Security Policy and Responsible Disclosure Program information](https://github.com/filecoin-project/community/blob/master/SECURITY.md)
+For reporting *critical* and *security* bugs, please consult our [Security Policy and Responsible Disclosure Program information](https://github.com/chenjianmei111/community/blob/master/SECURITY.md)
 
 ## Reporting a non security bug
 

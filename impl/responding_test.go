@@ -18,13 +18,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/xerrors"
 
-	"github.com/filecoin-project/go-storedcounter"
+	"github.com/chenjianmei111/go-storedcounter"
 
-	datatransfer "github.com/filecoin-project/go-data-transfer"
-	"github.com/filecoin-project/go-data-transfer/channels"
-	. "github.com/filecoin-project/go-data-transfer/impl"
-	"github.com/filecoin-project/go-data-transfer/message"
-	"github.com/filecoin-project/go-data-transfer/testutil"
+	datatransfer "github.com/chenjianmei111/go-data-transfer"
+	"github.com/chenjianmei111/go-data-transfer/channels"
+	. "github.com/chenjianmei111/go-data-transfer/impl"
+	"github.com/chenjianmei111/go-data-transfer/message"
+	"github.com/chenjianmei111/go-data-transfer/testutil"
 )
 
 func TestDataTransferResponding(t *testing.T) {

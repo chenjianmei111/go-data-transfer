@@ -8,7 +8,7 @@ import (
 	"github.com/libp2p/go-libp2p-core/protocol"
 	cborgen "github.com/whyrusleeping/cbor-gen"
 
-	"github.com/filecoin-project/go-data-transfer/encoding"
+	"github.com/chenjianmei111/go-data-transfer/encoding"
 )
 
 var (

@@ -7,7 +7,7 @@ import (
 	"github.com/ipld/go-ipld-prime"
 	"github.com/libp2p/go-libp2p-core/peer"
 
-	"github.com/filecoin-project/go-data-transfer/encoding"
+	"github.com/chenjianmei111/go-data-transfer/encoding"
 )
 
 //go:generate cbor-gen-for ChannelID

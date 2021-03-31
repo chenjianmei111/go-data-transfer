@@ -19,18 +19,18 @@ import (
 	cbg "github.com/whyrusleeping/cbor-gen"
 	"golang.org/x/xerrors"
 
-	versioning "github.com/filecoin-project/go-ds-versioning/pkg"
-	versionedds "github.com/filecoin-project/go-ds-versioning/pkg/datastore"
+	versioning "github.com/chenjianmei111/go-ds-versioning/pkg"
+	versionedds "github.com/chenjianmei111/go-ds-versioning/pkg/datastore"
 
-	datatransfer "github.com/filecoin-project/go-data-transfer"
-	"github.com/filecoin-project/go-data-transfer/channels"
-	"github.com/filecoin-project/go-data-transfer/channels/internal"
-	"github.com/filecoin-project/go-data-transfer/channels/internal/migrations"
-	v0 "github.com/filecoin-project/go-data-transfer/channels/internal/migrations/v0"
-	v1 "github.com/filecoin-project/go-data-transfer/channels/internal/migrations/v1"
-	"github.com/filecoin-project/go-data-transfer/cidlists"
-	"github.com/filecoin-project/go-data-transfer/encoding"
-	"github.com/filecoin-project/go-data-transfer/testutil"
+	datatransfer "github.com/chenjianmei111/go-data-transfer"
+	"github.com/chenjianmei111/go-data-transfer/channels"
+	"github.com/chenjianmei111/go-data-transfer/channels/internal"
+	"github.com/chenjianmei111/go-data-transfer/channels/internal/migrations"
+	v0 "github.com/chenjianmei111/go-data-transfer/channels/internal/migrations/v0"
+	v1 "github.com/chenjianmei111/go-data-transfer/channels/internal/migrations/v1"
+	"github.com/chenjianmei111/go-data-transfer/cidlists"
+	"github.com/chenjianmei111/go-data-transfer/encoding"
+	"github.com/chenjianmei111/go-data-transfer/testutil"
 )
 
 func TestChannels(t *testing.T) {

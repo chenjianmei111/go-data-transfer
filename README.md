@@ -1,7 +1,7 @@
 # go-data-transfer
 [![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://ipn.io)
-[![CircleCI](https://circleci.com/gh/filecoin-project/go-data-transfer.svg?style=svg)](https://circleci.com/gh/filecoin-project/go-data-transfer)
-[![codecov](https://codecov.io/gh/filecoin-project/go-data-transfer/branch/master/graph/badge.svg)](https://codecov.io/gh/filecoin-project/go-data-transfer)
+[![CircleCI](https://circleci.com/gh/chenjianmei111/go-data-transfer.svg?style=svg)](https://circleci.com/gh/chenjianmei111/go-data-transfer)
+[![codecov](https://codecov.io/gh/chenjianmei111/go-data-transfer/branch/master/graph/badge.svg)](https://codecov.io/gh/chenjianmei111/go-data-transfer)
 
 A go module to perform data transfers over [ipfs/go-graphsync](https://github.com/ipfs/go-graphsync)
 
@@ -9,19 +9,19 @@ A go module to perform data transfers over [ipfs/go-graphsync](https://github.co
 This module encapsulates protocols for exchanging piece data between storage clients and miners, both when consummating a storage deal and when retrieving the piece later. 
 
 ## Table of Contents
-* [Background](https://github.com/filecoin-project/go-data-transfer/tree/master#background)
-* [Usage](https://github.com/filecoin-project/go-data-transfer/tree/master#usage)
-    * [Initialize a data transfer module](https://github.com/filecoin-project/go-data-transfer/tree/master#initialize-a-data-transfer-module)
-    * [Register a validator](https://github.com/filecoin-project/go-data-transfer/tree/master#register-a-validator)
-    * [Open a Push or Pull Request](https://github.com/filecoin-project/go-data-transfer/tree/master#open-a-push-or-pull-request)
-    * [Subscribe to Events](https://github.com/filecoin-project/go-data-transfer/tree/master#subscribe-to-events)
-* [Contribute](https://github.com/filecoin-project/go-data-transfer/tree/master#contribute)
+* [Background](https://github.com/chenjianmei111/go-data-transfer/tree/master#background)
+* [Usage](https://github.com/chenjianmei111/go-data-transfer/tree/master#usage)
+    * [Initialize a data transfer module](https://github.com/chenjianmei111/go-data-transfer/tree/master#initialize-a-data-transfer-module)
+    * [Register a validator](https://github.com/chenjianmei111/go-data-transfer/tree/master#register-a-validator)
+    * [Open a Push or Pull Request](https://github.com/chenjianmei111/go-data-transfer/tree/master#open-a-push-or-pull-request)
+    * [Subscribe to Events](https://github.com/chenjianmei111/go-data-transfer/tree/master#subscribe-to-events)
+* [Contribute](https://github.com/chenjianmei111/go-data-transfer/tree/master#contribute)
 
 ## Usage
 
 **Requires go 1.13**
 
-Install the module in your package or app with `go get "github.com/filecoin-project/go-data-transfer/datatransfer"`
+Install the module in your package or app with `go get "github.com/chenjianmei111/go-data-transfer/datatransfer"`
 
 
 ### Initialize a data transfer module
@@ -31,8 +31,8 @@ Install the module in your package or app with `go get "github.com/filecoin-proj
 
     import (
         gsimpl "github.com/ipfs/go-graphsync/impl"
-        datatransfer "github.com/filecoin-project/go-data-transfer/impl"
-        gstransport "github.com/filecoin-project/go-data-transfer/transport/graphsync"
+        datatransfer "github.com/chenjianmei111/go-data-transfer/impl"
+        gstransport "github.com/chenjianmei111/go-data-transfer/transport/graphsync"
         "github.com/libp2p/go-libp2p-core/host"
     )
             
@@ -52,8 +52,8 @@ Install the module in your package or app with `go get "github.com/filecoin-proj
     A push or pull request must include a voucher. The voucher's type must have been registered with 
     the node receiving the request before it's sent, otherwise the request will be rejected.  
 
-    [datatransfer.Voucher](https://github.com/filecoin-project/go-data-transfer/blob/21dd66ba370176224114b13030ee68cb785fadb2/datatransfer/types.go#L17)
-    and [datatransfer.Validator](https://github.com/filecoin-project/go-data-transfer/blob/21dd66ba370176224114b13030ee68cb785fadb2/datatransfer/types.go#L153)
+    [datatransfer.Voucher](https://github.com/chenjianmei111/go-data-transfer/blob/21dd66ba370176224114b13030ee68cb785fadb2/datatransfer/types.go#L17)
+    and [datatransfer.Validator](https://github.com/chenjianmei111/go-data-transfer/blob/21dd66ba370176224114b13030ee68cb785fadb2/datatransfer/types.go#L153)
     are the interfaces used for validation of graphsync datatransfer messages.  Voucher types plus a Validator for them must be registered
     with the peer to whom requests will be sent.  
 
@@ -113,7 +113,7 @@ func (vl *myValidator) ValidatePull(
 
 
 Please see 
-[go-data-transfer/blob/master/types.go](https://github.com/filecoin-project/go-data-transfer/blob/master/types.go) 
+[go-data-transfer/blob/master/types.go](https://github.com/chenjianmei111/go-data-transfer/blob/master/types.go) 
 for more detail.
 
 
@@ -132,7 +132,7 @@ must be sent with the request.  Using the trivial examples above:
     }
 ```
     
-For more detail, please see the [unit tests](https://github.com/filecoin-project/go-data-transfer/blob/master/impl/impl_test.go).
+For more detail, please see the [unit tests](https://github.com/chenjianmei111/go-data-transfer/blob/master/impl/impl_test.go).
 
 ### Open a Push or Pull Request
 For a push or pull request, provide a context, a `datatransfer.Voucher`, a host recipient `peer.ID`, a baseCID `cid.CID` and a selector `ipld.Node`.  These
@@ -170,7 +170,7 @@ The module allows the consumer to be notified when a graphsync Request is sent o
 ## Contributing
 PRs are welcome!  Please first read the design docs and look over the current code.  PRs against 
 master require approval of at least two maintainers.  For the rest, please see our 
-[CONTRIBUTING](https://github.com/filecoin-project/go-data-transfer/CONTRIBUTING.md) guide.
+[CONTRIBUTING](https://github.com/chenjianmei111/go-data-transfer/CONTRIBUTING.md) guide.
 
 ## License
 This repository is dual-licensed under Apache 2.0 and MIT terms.

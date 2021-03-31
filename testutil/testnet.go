@@ -5,8 +5,8 @@ import (
 
 	"github.com/libp2p/go-libp2p-core/peer"
 
-	datatransfer "github.com/filecoin-project/go-data-transfer"
-	"github.com/filecoin-project/go-data-transfer/network"
+	datatransfer "github.com/chenjianmei111/go-data-transfer"
+	"github.com/chenjianmei111/go-data-transfer/network"
 )
 
 // FakeSentMessage is a recording of a message sent on the FakeNetwork

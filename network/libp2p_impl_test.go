@@ -18,10 +18,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/xerrors"
 
-	datatransfer "github.com/filecoin-project/go-data-transfer"
-	"github.com/filecoin-project/go-data-transfer/message"
-	"github.com/filecoin-project/go-data-transfer/network"
-	"github.com/filecoin-project/go-data-transfer/testutil"
+	datatransfer "github.com/chenjianmei111/go-data-transfer"
+	"github.com/chenjianmei111/go-data-transfer/message"
+	"github.com/chenjianmei111/go-data-transfer/network"
+	"github.com/chenjianmei111/go-data-transfer/testutil"
 )
 
 // Receiver is an interface for receiving messages from the DataTransferNetwork.

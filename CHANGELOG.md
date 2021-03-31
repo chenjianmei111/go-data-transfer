@@ -2,12 +2,12 @@
 
 # go-data-transfer 1.2.7
 
-- github.com/filecoin-project/go-data-transfer:
-  - feat: configurable send message timeouts (#136) ([filecoin-project/go-data-transfer#136](https://github.com/filecoin-project/go-data-transfer/pull/136))
-  - log request / response events (#137) ([filecoin-project/go-data-transfer#137](https://github.com/filecoin-project/go-data-transfer/pull/137))
-  - fix: dont complete transfer because graphsync request was cancelled (#134) ([filecoin-project/go-data-transfer#134](https://github.com/filecoin-project/go-data-transfer/pull/134))
-  - feat: better push channel monitor logging (#133) ([filecoin-project/go-data-transfer#133](https://github.com/filecoin-project/go-data-transfer/pull/133))
-  - release: v1.2.6 (#132) ([filecoin-project/go-data-transfer#132](https://github.com/filecoin-project/go-data-transfer/pull/132))
+- github.com/chenjianmei111/go-data-transfer:
+  - feat: configurable send message timeouts (#136) ([chenjianmei111/go-data-transfer#136](https://github.com/chenjianmei111/go-data-transfer/pull/136))
+  - log request / response events (#137) ([chenjianmei111/go-data-transfer#137](https://github.com/chenjianmei111/go-data-transfer/pull/137))
+  - fix: dont complete transfer because graphsync request was cancelled (#134) ([chenjianmei111/go-data-transfer#134](https://github.com/chenjianmei111/go-data-transfer/pull/134))
+  - feat: better push channel monitor logging (#133) ([chenjianmei111/go-data-transfer#133](https://github.com/chenjianmei111/go-data-transfer/pull/133))
+  - release: v1.2.6 (#132) ([chenjianmei111/go-data-transfer#132](https://github.com/chenjianmei111/go-data-transfer/pull/132))
 
 Contributors
 
@@ -19,8 +19,8 @@ Contributors
 
 ### Changelog
 
-- github.com/filecoin-project/go-data-transfer:
-  - add logging to push channel monitor (#131) ([filecoin-project/go-data-transfer#131](https://github.com/filecoin-project/go-data-transfer/pull/131))
+- github.com/chenjianmei111/go-data-transfer:
+  - add logging to push channel monitor (#131) ([chenjianmei111/go-data-transfer#131](https://github.com/chenjianmei111/go-data-transfer/pull/131))
 
 Contributors
 
@@ -32,8 +32,8 @@ Contributors
 
 ### Changelog
 
-- github.com/filecoin-project/go-data-transfer:
-  - feat: limit consecutive restarts with no data transfer (#129) ([filecoin-project/go-data-transfer#129](https://github.com/filecoin-project/go-data-transfer/pull/129))
+- github.com/chenjianmei111/go-data-transfer:
+  - feat: limit consecutive restarts with no data transfer (#129) ([chenjianmei111/go-data-transfer#129](https://github.com/chenjianmei111/go-data-transfer/pull/129))
 
 Contributors
 
@@ -45,8 +45,8 @@ Contributors
 
 ### Changelog
 
-- github.com/filecoin-project/go-data-transfer:
-  - Automatically restart push channel (#127) ([filecoin-project/go-data-transfer#127](https://github.com/filecoin-project/go-data-transfer/pull/127))
+- github.com/chenjianmei111/go-data-transfer:
+  - Automatically restart push channel (#127) ([chenjianmei111/go-data-transfer#127](https://github.com/chenjianmei111/go-data-transfer/pull/127))
 - github.com/ipfs/go-graphsync (v0.5.0 -> v0.5.2):
   - RegisterNetworkErrorListener should fire when there's an error connecting to the peer (#127) ([ipfs/go-graphsync#127](https://github.com/ipfs/go-graphsync/pull/127))
   - Permit multiple data subscriptions per original topic (#128) ([ipfs/go-graphsync#128](https://github.com/ipfs/go-graphsync/pull/128))
@@ -64,10 +64,10 @@ Contributors
 
 ### Changelog
 
-- github.com/filecoin-project/go-data-transfer:
-  - Better retry config (#124) ([filecoin-project/go-data-transfer#124](https://github.com/filecoin-project/go-data-transfer/pull/124))
-  - feat: expose channel state on Manager interface (#125) ([filecoin-project/go-data-transfer#125](https://github.com/filecoin-project/go-data-transfer/pull/125))
-  - Fix typo, wrap correct FSM error (#123) ([filecoin-project/go-data-transfer#123](https://github.com/filecoin-project/go-data-transfer/pull/123))
+- github.com/chenjianmei111/go-data-transfer:
+  - Better retry config (#124) ([chenjianmei111/go-data-transfer#124](https://github.com/chenjianmei111/go-data-transfer/pull/124))
+  - feat: expose channel state on Manager interface (#125) ([chenjianmei111/go-data-transfer#125](https://github.com/chenjianmei111/go-data-transfer/pull/125))
+  - Fix typo, wrap correct FSM error (#123) ([chenjianmei111/go-data-transfer#123](https://github.com/chenjianmei111/go-data-transfer/pull/123))
 
 Contributors
 
@@ -80,8 +80,8 @@ Contributors
 
 ### Changelog
 
-- github.com/filecoin-project/go-data-transfer:
-  - fix(graphsync): fix UseStore for restarts (#115) ([filecoin-project/go-data-transfer#115](https://github.com/filecoin-project/go-data-transfer/pull/115))
+- github.com/chenjianmei111/go-data-transfer:
+  - fix(graphsync): fix UseStore for restarts (#115) ([chenjianmei111/go-data-transfer#115](https://github.com/chenjianmei111/go-data-transfer/pull/115))
 
 Contributors
 
@@ -93,9 +93,9 @@ Contributors
 
 ### Changelog
 
-- github.com/filecoin-project/go-data-transfer:
-  - Fire cancel locally even if remote cancel fails (#120) ([filecoin-project/go-data-transfer#120](https://github.com/filecoin-project/go-data-transfer/pull/120))
-  - fix: respect context when opening stream (#119) ([filecoin-project/go-data-transfer#119](https://github.com/filecoin-project/go-data-transfer/pull/119))
+- github.com/chenjianmei111/go-data-transfer:
+  - Fire cancel locally even if remote cancel fails (#120) ([chenjianmei111/go-data-transfer#120](https://github.com/chenjianmei111/go-data-transfer/pull/120))
+  - fix: respect context when opening stream (#119) ([chenjianmei111/go-data-transfer#119](https://github.com/chenjianmei111/go-data-transfer/pull/119))
 
 Contributors
 
@@ -109,9 +109,9 @@ This release primarily updates to go-libp2p 0.12 to use the new stream interface
 
 ### Changelog
 
-- github.com/filecoin-project/go-data-transfer:
-  - feat: update libp2p (#116) ([filecoin-project/go-data-transfer#116](https://github.com/filecoin-project/go-data-transfer/pull/116))
-  - docs(CHANGELOG): update for 1.0.1 release ([filecoin-project/go-data-transfer#114](https://github.com/filecoin-project/go-data-transfer/pull/114))
+- github.com/chenjianmei111/go-data-transfer:
+  - feat: update libp2p (#116) ([chenjianmei111/go-data-transfer#116](https://github.com/chenjianmei111/go-data-transfer/pull/116))
+  - docs(CHANGELOG): update for 1.0.1 release ([chenjianmei111/go-data-transfer#114](https://github.com/chenjianmei111/go-data-transfer/pull/114))
 - github.com/ipfs/go-graphsync (v0.4.2 -> v0.5.0):
   - docs(CHANGELOG): update for 0.5.0
   - feat: use go-libp2p-core 0.7.0 stream interfaces (#116) ([ipfs/go-graphsync#116](https://github.com/ipfs/go-graphsync/pull/116))
@@ -135,12 +135,12 @@ Bug fix release that fixes channel closing and timeout issues
 
 ### Changelog
 
-- github.com/filecoin-project/go-data-transfer:
-  - fix(impl): reset timeouts (#113) ([filecoin-project/go-data-transfer#113](https://github.com/filecoin-project/go-data-transfer/pull/113))
-  - feat(impl): fix shutdown (#112) ([filecoin-project/go-data-transfer#112](https://github.com/filecoin-project/go-data-transfer/pull/112))
-  - Remove link to missing design documentation (#111) ([filecoin-project/go-data-transfer#111](https://github.com/filecoin-project/go-data-transfer/pull/111))
-  - fix(channels): add nil check (#94) ([filecoin-project/go-data-transfer#94](https://github.com/filecoin-project/go-data-transfer/pull/94))
-  - docs(CHANGELOG): update for v1.0.0 ([filecoin-project/go-data-transfer#110](https://github.com/filecoin-project/go-data-transfer/pull/110))
+- github.com/chenjianmei111/go-data-transfer:
+  - fix(impl): reset timeouts (#113) ([chenjianmei111/go-data-transfer#113](https://github.com/chenjianmei111/go-data-transfer/pull/113))
+  - feat(impl): fix shutdown (#112) ([chenjianmei111/go-data-transfer#112](https://github.com/chenjianmei111/go-data-transfer/pull/112))
+  - Remove link to missing design documentation (#111) ([chenjianmei111/go-data-transfer#111](https://github.com/chenjianmei111/go-data-transfer/pull/111))
+  - fix(channels): add nil check (#94) ([chenjianmei111/go-data-transfer#94](https://github.com/chenjianmei111/go-data-transfer/pull/94))
+  - docs(CHANGELOG): update for v1.0.0 ([chenjianmei111/go-data-transfer#110](https://github.com/chenjianmei111/go-data-transfer/pull/110))
 
 ### Contributors
 
@@ -154,13 +154,13 @@ Major release brings big graphsync improvements and better measuring of data tra
 
 ### Changelog
 
-- github.com/filecoin-project/go-data-transfer:
-  - Update graphsync & fix in-progress request memory leak by consuming responses (#109) ([filecoin-project/go-data-transfer#109](https://github.com/filecoin-project/go-data-transfer/pull/109))
-  - Correct data transfer Sent stats (#106) ([filecoin-project/go-data-transfer#106](https://github.com/filecoin-project/go-data-transfer/pull/106))
-  - Rudimentary Benchmarking (#108) ([filecoin-project/go-data-transfer#108](https://github.com/filecoin-project/go-data-transfer/pull/108))
-  - Create SECURITY.md (#105) ([filecoin-project/go-data-transfer#105](https://github.com/filecoin-project/go-data-transfer/pull/105))
-  - fix(impl): don't error when channel missing (#107) ([filecoin-project/go-data-transfer#107](https://github.com/filecoin-project/go-data-transfer/pull/107))
-  - docs(CHANGELOG): update for 0.9.0 ([filecoin-project/go-data-transfer#103](https://github.com/filecoin-project/go-data-transfer/pull/103))
+- github.com/chenjianmei111/go-data-transfer:
+  - Update graphsync & fix in-progress request memory leak by consuming responses (#109) ([chenjianmei111/go-data-transfer#109](https://github.com/chenjianmei111/go-data-transfer/pull/109))
+  - Correct data transfer Sent stats (#106) ([chenjianmei111/go-data-transfer#106](https://github.com/chenjianmei111/go-data-transfer/pull/106))
+  - Rudimentary Benchmarking (#108) ([chenjianmei111/go-data-transfer#108](https://github.com/chenjianmei111/go-data-transfer/pull/108))
+  - Create SECURITY.md (#105) ([chenjianmei111/go-data-transfer#105](https://github.com/chenjianmei111/go-data-transfer/pull/105))
+  - fix(impl): don't error when channel missing (#107) ([chenjianmei111/go-data-transfer#107](https://github.com/chenjianmei111/go-data-transfer/pull/107))
+  - docs(CHANGELOG): update for 0.9.0 ([chenjianmei111/go-data-transfer#103](https://github.com/chenjianmei111/go-data-transfer/pull/103))
 - github.com/ipfs/go-graphsync (v0.3.0 -> v0.4.2):
   - docs(CHANGELOG): update for 0.4.2
   - fix(notifications): fix lock in close (#115) ([ipfs/go-graphsync#115](https://github.com/ipfs/go-graphsync/pull/115))
@@ -189,11 +189,11 @@ Major release of the 1.1 data transfer protocol, which supports restarts of data
 
 ### Changelog
 
-- github.com/filecoin-project/go-data-transfer:
-  - Message compatibility on graphsync (#102) ([filecoin-project/go-data-transfer#102](https://github.com/filecoin-project/go-data-transfer/pull/102))
-  - Handle network errors/stalls (#101) ([filecoin-project/go-data-transfer#101](https://github.com/filecoin-project/go-data-transfer/pull/101))
-  - Resume Data Transfer (#100) ([filecoin-project/go-data-transfer#100](https://github.com/filecoin-project/go-data-transfer/pull/100))
-  - docs(CHANGELOG): update for 0.6.7 release ([filecoin-project/go-data-transfer#98](https://github.com/filecoin-project/go-data-transfer/pull/98))
+- github.com/chenjianmei111/go-data-transfer:
+  - Message compatibility on graphsync (#102) ([chenjianmei111/go-data-transfer#102](https://github.com/chenjianmei111/go-data-transfer/pull/102))
+  - Handle network errors/stalls (#101) ([chenjianmei111/go-data-transfer#101](https://github.com/chenjianmei111/go-data-transfer/pull/101))
+  - Resume Data Transfer (#100) ([chenjianmei111/go-data-transfer#100](https://github.com/chenjianmei111/go-data-transfer/pull/100))
+  - docs(CHANGELOG): update for 0.6.7 release ([chenjianmei111/go-data-transfer#98](https://github.com/chenjianmei111/go-data-transfer/pull/98))
 - github.com/ipfs/go-graphsync (v0.2.1 -> v0.3.0):
   - feat(CHANGELOG): update for 0.3.0
   - docs(CHANGELOG): update for 0.2.1 ([ipfs/go-graphsync#103](https://github.com/ipfs/go-graphsync/pull/103))
@@ -214,10 +214,10 @@ Minor update w/ fixes to support go-fil-markets 0.7.0
 
 ### Changelog
 
-- github.com/filecoin-project/go-data-transfer:
-  - Feat/cleanup errors (#90) ([filecoin-project/go-data-transfer#90](https://github.com/filecoin-project/go-data-transfer/pull/90))
-  - Disambiguate whether a revalidator recognized a request when checking for a need to revalidate (#87) ([filecoin-project/go-data-transfer#87](https://github.com/filecoin-project/go-data-transfer/pull/87))
-  - docs(CHANGELOG): update for 0.6.6 ([filecoin-project/go-data-transfer#89](https://github.com/filecoin-project/go-data-transfer/pull/89))
+- github.com/chenjianmei111/go-data-transfer:
+  - Feat/cleanup errors (#90) ([chenjianmei111/go-data-transfer#90](https://github.com/chenjianmei111/go-data-transfer/pull/90))
+  - Disambiguate whether a revalidator recognized a request when checking for a need to revalidate (#87) ([chenjianmei111/go-data-transfer#87](https://github.com/chenjianmei111/go-data-transfer/pull/87))
+  - docs(CHANGELOG): update for 0.6.6 ([chenjianmei111/go-data-transfer#89](https://github.com/chenjianmei111/go-data-transfer/pull/89))
 
 ### Contributors
 
@@ -231,9 +231,9 @@ Dependency update - go graphsync fix
 
 ### Changelog
 
-- github.com/filecoin-project/go-data-transfer:
-  - feat(deps): update graphsync (#86) ([filecoin-project/go-data-transfer#86](https://github.com/filecoin-project/go-data-transfer/pull/86))
-  - docs(CHANGELOG): updates for 0.6.5 ([filecoin-project/go-data-transfer#85](https://github.com/filecoin-project/go-data-transfer/pull/85))
+- github.com/chenjianmei111/go-data-transfer:
+  - feat(deps): update graphsync (#86) ([chenjianmei111/go-data-transfer#86](https://github.com/chenjianmei111/go-data-transfer/pull/86))
+  - docs(CHANGELOG): updates for 0.6.5 ([chenjianmei111/go-data-transfer#85](https://github.com/chenjianmei111/go-data-transfer/pull/85))
 - github.com/ipfs/go-graphsync (v0.2.0 -> v0.2.1):
   - docs(CHANGELOG): update for 0.2.1
   - Release/0.2.0 ([ipfs/go-graphsync#99](https://github.com/ipfs/go-graphsync/pull/99))
@@ -252,9 +252,9 @@ Dependency update - go-graphsync and go-ipld-prime
 
 ### Changelog
 
-- github.com/filecoin-project/go-data-transfer:
-  - feat(deps): update graphsync 0.2.0 (#83) ([filecoin-project/go-data-transfer#83](https://github.com/filecoin-project/go-data-transfer/pull/83))
-  - docs(CHANGELOG): update for 0.6.4 ([filecoin-project/go-data-transfer#82](https://github.com/filecoin-project/go-data-transfer/pull/82))
+- github.com/chenjianmei111/go-data-transfer:
+  - feat(deps): update graphsync 0.2.0 (#83) ([chenjianmei111/go-data-transfer#83](https://github.com/chenjianmei111/go-data-transfer/pull/83))
+  - docs(CHANGELOG): update for 0.6.4 ([chenjianmei111/go-data-transfer#82](https://github.com/chenjianmei111/go-data-transfer/pull/82))
 - github.com/hannahhoward/cbor-gen-for (v0.0.0-20191218204337-9ab7b1bcc099 -> v0.0.0-20200817222906-ea96cece81f1):
   - add flag to select map encoding ([hannahhoward/cbor-gen-for#1](https://github.com/hannahhoward/cbor-gen-for/pull/1))
   - fix(deps): update cbor-gen-to-latest
@@ -284,9 +284,9 @@ security fix for messages
 
 ### Changelog
 
-- github.com/filecoin-project/go-data-transfer:
-  - Ensure valid messages are returned from FromNet() (#74) ([filecoin-project/go-data-transfer#74](https://github.com/filecoin-project/go-data-transfer/pull/74))
-  - Release/v0.6.3 ([filecoin-project/go-data-transfer#70](https://github.com/filecoin-project/go-data-transfer/pull/70))
+- github.com/chenjianmei111/go-data-transfer:
+  - Ensure valid messages are returned from FromNet() (#74) ([chenjianmei111/go-data-transfer#74](https://github.com/chenjianmei111/go-data-transfer/pull/74))
+  - Release/v0.6.3 ([chenjianmei111/go-data-transfer#70](https://github.com/chenjianmei111/go-data-transfer/pull/70))
 
 ### Contributors
 
@@ -301,10 +301,10 @@ logic
 
 ### Changelog
 
-- github.com/filecoin-project/go-data-transfer:
+- github.com/chenjianmei111/go-data-transfer:
   - fix(deps): update graphsync, small cleanup
-  - Stop data transfer correctly and some minor cleanp (#69) ([filecoin-project/go-data-transfer#69](https://github.com/filecoin-project/go-data-transfer/pull/69))
-  - docs(CHANGELOG): update for 0.6.2 release ([filecoin-project/go-data-transfer#68](https://github.com/filecoin-project/go-data-transfer/pull/68))
+  - Stop data transfer correctly and some minor cleanp (#69) ([chenjianmei111/go-data-transfer#69](https://github.com/chenjianmei111/go-data-transfer/pull/69))
+  - docs(CHANGELOG): update for 0.6.2 release ([chenjianmei111/go-data-transfer#68](https://github.com/chenjianmei111/go-data-transfer/pull/68))
 - github.com/ipfs/go-graphsync (v0.1.1 -> v0.1.2):
   - fix(asyncloader): remove send on close channel
   - docs(CHANGELOG): update for 0.1.2 release
@@ -325,9 +325,9 @@ Minor bug fix release for request cancelling
 
 ### Changelog
 
-- github.com/filecoin-project/go-data-transfer:
-  - Fix Pull Request Cancelling (#67) ([filecoin-project/go-data-transfer#67](https://github.com/filecoin-project/go-data-transfer/pull/67))
-  - docs(CHANGELOG): update for 0.6.1 ([filecoin-project/go-data-transfer#66](https://github.com/filecoin-project/go-data-transfer/pull/66))
+- github.com/chenjianmei111/go-data-transfer:
+  - Fix Pull Request Cancelling (#67) ([chenjianmei111/go-data-transfer#67](https://github.com/chenjianmei111/go-data-transfer/pull/67))
+  - docs(CHANGELOG): update for 0.6.1 ([chenjianmei111/go-data-transfer#66](https://github.com/chenjianmei111/go-data-transfer/pull/66))
 
 ### Contributors
 
@@ -341,8 +341,8 @@ Update graphsync with critical bug fix for multiple transfers across custom stor
 
 ### Changelog
 
-- github.com/filecoin-project/go-data-transfer:
-  - Update graphsync 0.1.1 (#65) ([filecoin-project/go-data-transfer#65](https://github.com/filecoin-project/go-data-transfer/pull/65))
+- github.com/chenjianmei111/go-data-transfer:
+  - Update graphsync 0.1.1 (#65) ([chenjianmei111/go-data-transfer#65](https://github.com/chenjianmei111/go-data-transfer/pull/65))
 - github.com/ipfs/go-graphsync (v0.1.0 -> v0.1.1):
   - docs(CHANGELOG): update for v0.1.1
   - docs(CHANGELOG): update for v0.1.0 release ([ipfs/go-graphsync#84](https://github.com/ipfs/go-graphsync/pull/84))
@@ -364,8 +364,8 @@ Includes two small breaking change updates:
 
 ### Changelog
 
-- github.com/filecoin-project/go-data-transfer:
-  - Update cbor-gen (#63) ([filecoin-project/go-data-transfer#63](https://github.com/filecoin-project/go-data-transfer/pull/63))
+- github.com/chenjianmei111/go-data-transfer:
+  - Update cbor-gen (#63) ([chenjianmei111/go-data-transfer#63](https://github.com/chenjianmei111/go-data-transfer/pull/63))
 
 ### Contributors
 
@@ -379,10 +379,10 @@ Minor fixes + update to release process
 
 ### Changelog
 
-- github.com/filecoin-project/go-data-transfer:
+- github.com/chenjianmei111/go-data-transfer:
   - fix(deps): update graphsync
-  - Release infrastructure (#61) ([filecoin-project/go-data-transfer#61](https://github.com/filecoin-project/go-data-transfer/pull/61))
-  - Update cbor-gen (#60) ([filecoin-project/go-data-transfer#60](https://github.com/filecoin-project/go-data-transfer/pull/60))
+  - Release infrastructure (#61) ([chenjianmei111/go-data-transfer#61](https://github.com/chenjianmei111/go-data-transfer/pull/61))
+  - Update cbor-gen (#60) ([chenjianmei111/go-data-transfer#60](https://github.com/chenjianmei111/go-data-transfer/pull/60))
 - github.com/ipfs/go-graphsync (v0.0.6-0.20200731020347-9ff2ade94aa4 -> v0.1.0):
   - docs(CHANGELOG): update for v0.1.0 release
   - Release infrastructure (#81) ([ipfs/go-graphsync#81](https://github.com/ipfs/go-graphsync/pull/81))
@@ -401,9 +401,9 @@ Security fix release
 
 ### Changelog
 
-- github.com/filecoin-project/go-data-transfer:
+- github.com/chenjianmei111/go-data-transfer:
   - fix(deps): update graphsync
-  - fix(message): add error check to FromNet (#59) ([filecoin-project/go-data-transfer#59](https://github.com/filecoin-project/go-data-transfer/pull/59))
+  - fix(message): add error check to FromNet (#59) ([chenjianmei111/go-data-transfer#59](https://github.com/chenjianmei111/go-data-transfer/pull/59))
 - github.com/ipfs/go-graphsync (v0.0.6-0.20200721211002-c376cbe14c0a -> v0.0.6-0.20200731020347-9ff2ade94aa4):
   - feat(persistenceoptions): add unregister ability (#80) ([ipfs/go-graphsync#80](https://github.com/ipfs/go-graphsync/pull/80))
   - fix(message): regen protobuf code (#79) ([ipfs/go-graphsync#79](https://github.com/ipfs/go-graphsync/pull/79))
@@ -421,8 +421,8 @@ Support custom configruation of transports
 
 ### Changelog
 
-- github.com/filecoin-project/go-data-transfer:
-  - Allow custom configuration of transports (#57) ([filecoin-project/go-data-transfer#57](https://github.com/filecoin-project/go-data-transfer/pull/57))
+- github.com/chenjianmei111/go-data-transfer:
+  - Allow custom configuration of transports (#57) ([chenjianmei111/go-data-transfer#57](https://github.com/chenjianmei111/go-data-transfer/pull/57))
 - github.com/ipfs/go-graphsync (v0.0.6-0.20200715204712-ef06b3d32e83 -> v0.0.6-0.20200721211002-c376cbe14c0a):
   - feat(persistenceoptions): add unregister ability
 
@@ -439,8 +439,8 @@ Additional changes to support implementation of retrieval on top of go-data-tran
 
 ### Changelog
 
-- github.com/filecoin-project/go-data-transfer:
-  - Minor fixes for retrieval on data transfer (#56) ([filecoin-project/go-data-transfer#56](https://github.com/filecoin-project/go-data-transfer/pull/56))
+- github.com/chenjianmei111/go-data-transfer:
+  - Minor fixes for retrieval on data transfer (#56) ([chenjianmei111/go-data-transfer#56](https://github.com/chenjianmei111/go-data-transfer/pull/56))
 - github.com/ipfs/go-graphsync (v0.0.6-0.20200708073926-caa872f68b2c -> v0.0.6-0.20200715204712-ef06b3d32e83):
   - feat(requestmanager): run response hooks on completed requests (#77) ([ipfs/go-graphsync#77](https://github.com/ipfs/go-graphsync/pull/77))
   - Revert "add extensions on complete (#76)"
@@ -459,9 +459,9 @@ Major rewrite of library -- transports, persisted state, revalidators, etc. To s
 
 ### Changelog
 
-- github.com/filecoin-project/go-data-transfer:
-  - The new data transfer (#55) ([filecoin-project/go-data-transfer#55](https://github.com/filecoin-project/go-data-transfer/pull/55))
-  - Actually track progress for send/receive (#53) ([filecoin-project/go-data-transfer#53](https://github.com/filecoin-project/go-data-transfer/pull/53))
+- github.com/chenjianmei111/go-data-transfer:
+  - The new data transfer (#55) ([chenjianmei111/go-data-transfer#55](https://github.com/chenjianmei111/go-data-transfer/pull/55))
+  - Actually track progress for send/receive (#53) ([chenjianmei111/go-data-transfer#53](https://github.com/chenjianmei111/go-data-transfer/pull/53))
 - github.com/ipfs/go-graphsync (v0.0.6-0.20200504202014-9d5f2c26a103 -> v0.0.6-0.20200708073926-caa872f68b2c):
   - All changes to date including pause requests & start paused, along with new adds for cleanups and checking of execution (#75) ([ipfs/go-graphsync#75](https://github.com/ipfs/go-graphsync/pull/75))
   - More fine grained response controls (#71) ([ipfs/go-graphsync#71](https://github.com/ipfs/go-graphsync/pull/71))
@@ -480,10 +480,10 @@ Major rewrite of library -- transports, persisted state, revalidators, etc. To s
 Additional refactors to refactors to registry
 
 ### Changelog 
-- github.com/filecoin-project/go-data-transfer:
-  - feat(graphsyncimpl): fix open/close events (#52) ([filecoin-project/go-data-transfer#52](https://github.com/filecoin-project/go-data-transfer/pull/52))
-  - chore(deps): update graphsync ([filecoin-project/go-data-transfer#51](https://github.com/filecoin-project/go-data-transfer/pull/51))
-  - Refactor registry and encoding (#50) ([filecoin-project/go-data-transfer#50](https://github.com/filecoin-project/go-data-transfer/pull/50))
+- github.com/chenjianmei111/go-data-transfer:
+  - feat(graphsyncimpl): fix open/close events (#52) ([chenjianmei111/go-data-transfer#52](https://github.com/chenjianmei111/go-data-transfer/pull/52))
+  - chore(deps): update graphsync ([chenjianmei111/go-data-transfer#51](https://github.com/chenjianmei111/go-data-transfer/pull/51))
+  - Refactor registry and encoding (#50) ([chenjianmei111/go-data-transfer#50](https://github.com/chenjianmei111/go-data-transfer/pull/50))
 
 ### Contributors
 
@@ -497,7 +497,7 @@ Bug fix release -- critical nil check
 
 ### Changelog
 
-- github.com/filecoin-project/go-data-transfer:
+- github.com/chenjianmei111/go-data-transfer:
   - chore(deps): update graphsync
 - github.com/ipfs/go-graphsync (v0.0.6-0.20200428204348-97a8cf76a482 -> v0.0.6-0.20200504202014-9d5f2c26a103):
   - fix(responsemanager): add nil check (#67) ([ipfs/go-graphsync#67](https://github.com/ipfs/go-graphsync/pull/67))
@@ -517,33 +517,33 @@ Initial extracted release for Testnet Phase 2 (v0.1.0 + v0.1.1 were lotus tags p
 
 ### Changelog
 
-- github.com/filecoin-project/go-data-transfer:
-  - Upgrade graphsync + ipld-prime (#49) ([filecoin-project/go-data-transfer#49](https://github.com/filecoin-project/go-data-transfer/pull/49))
-  - Use extracted generic pubsub (#48) ([filecoin-project/go-data-transfer#48](https://github.com/filecoin-project/go-data-transfer/pull/48))
-  - Refactor & Cleanup In Preparation For Added Complexity (#47) ([filecoin-project/go-data-transfer#47](https://github.com/filecoin-project/go-data-transfer/pull/47))
-  - feat(graphsync): complete notifications for responder (#46) ([filecoin-project/go-data-transfer#46](https://github.com/filecoin-project/go-data-transfer/pull/46))
-  - Update graphsync ([filecoin-project/go-data-transfer#45](https://github.com/filecoin-project/go-data-transfer/pull/45))
+- github.com/chenjianmei111/go-data-transfer:
+  - Upgrade graphsync + ipld-prime (#49) ([chenjianmei111/go-data-transfer#49](https://github.com/chenjianmei111/go-data-transfer/pull/49))
+  - Use extracted generic pubsub (#48) ([chenjianmei111/go-data-transfer#48](https://github.com/chenjianmei111/go-data-transfer/pull/48))
+  - Refactor & Cleanup In Preparation For Added Complexity (#47) ([chenjianmei111/go-data-transfer#47](https://github.com/chenjianmei111/go-data-transfer/pull/47))
+  - feat(graphsync): complete notifications for responder (#46) ([chenjianmei111/go-data-transfer#46](https://github.com/chenjianmei111/go-data-transfer/pull/46))
+  - Update graphsync ([chenjianmei111/go-data-transfer#45](https://github.com/chenjianmei111/go-data-transfer/pull/45))
   - docs(docs): remove outdated docs
   - docs(README): clean up README
   - docs(license): add license + contrib
   - ci(circle): add config
   - build(datatransfer): add go.mod
   - build(cbor-gen): add tools for cbor-gen-for .
-  - fix links in datatransfer README (#11) ([filecoin-project/go-data-transfer#11](https://github.com/filecoin-project/go-data-transfer/pull/11))
-  - feat(shared): add shared tools and types (#9) ([filecoin-project/go-data-transfer#9](https://github.com/filecoin-project/go-data-transfer/pull/9))
+  - fix links in datatransfer README (#11) ([chenjianmei111/go-data-transfer#11](https://github.com/chenjianmei111/go-data-transfer/pull/11))
+  - feat(shared): add shared tools and types (#9) ([chenjianmei111/go-data-transfer#9](https://github.com/chenjianmei111/go-data-transfer/pull/9))
   - Feat/datatransfer readme, contributing, design doc (rename)
   - refactor(datatransfer): move to local module
   - feat(datatransfer): switch to graphsync implementation
-  - Don't respond with error in gsReqRcdHook when we can't find the datatransfer extension. (#754) ([filecoin-project/go-data-transfer#754](https://github.com/filecoin-project/go-data-transfer/pull/754))
-  - Feat/dt subscribe, file Xfer round trip (#720) ([filecoin-project/go-data-transfer#720](https://github.com/filecoin-project/go-data-transfer/pull/720))
-  - Feat/dt gs pullrequests (#693) ([filecoin-project/go-data-transfer#693](https://github.com/filecoin-project/go-data-transfer/pull/693))
-  - DTM sends data over graphsync for validated push requests (#665) ([filecoin-project/go-data-transfer#665](https://github.com/filecoin-project/go-data-transfer/pull/665))
-  - Techdebt/dt split graphsync impl receiver (#651) ([filecoin-project/go-data-transfer#651](https://github.com/filecoin-project/go-data-transfer/pull/651))
-  - Feat/dt initiator cleanup (#645) ([filecoin-project/go-data-transfer#645](https://github.com/filecoin-project/go-data-transfer/pull/645))
-  - Feat/dt graphsync pullreqs (#627) ([filecoin-project/go-data-transfer#627](https://github.com/filecoin-project/go-data-transfer/pull/627))
+  - Don't respond with error in gsReqRcdHook when we can't find the datatransfer extension. (#754) ([chenjianmei111/go-data-transfer#754](https://github.com/chenjianmei111/go-data-transfer/pull/754))
+  - Feat/dt subscribe, file Xfer round trip (#720) ([chenjianmei111/go-data-transfer#720](https://github.com/chenjianmei111/go-data-transfer/pull/720))
+  - Feat/dt gs pullrequests (#693) ([chenjianmei111/go-data-transfer#693](https://github.com/chenjianmei111/go-data-transfer/pull/693))
+  - DTM sends data over graphsync for validated push requests (#665) ([chenjianmei111/go-data-transfer#665](https://github.com/chenjianmei111/go-data-transfer/pull/665))
+  - Techdebt/dt split graphsync impl receiver (#651) ([chenjianmei111/go-data-transfer#651](https://github.com/chenjianmei111/go-data-transfer/pull/651))
+  - Feat/dt initiator cleanup (#645) ([chenjianmei111/go-data-transfer#645](https://github.com/chenjianmei111/go-data-transfer/pull/645))
+  - Feat/dt graphsync pullreqs (#627) ([chenjianmei111/go-data-transfer#627](https://github.com/chenjianmei111/go-data-transfer/pull/627))
   - fix(datatransfer): fix tests
-  - Graphsync response is scheduled when a valid push request is received (#625) ([filecoin-project/go-data-transfer#625](https://github.com/filecoin-project/go-data-transfer/pull/625))
-  - responses alert subscribers when request is not accepted (#607) ([filecoin-project/go-data-transfer#607](https://github.com/filecoin-project/go-data-transfer/pull/607))
+  - Graphsync response is scheduled when a valid push request is received (#625) ([chenjianmei111/go-data-transfer#625](https://github.com/chenjianmei111/go-data-transfer/pull/625))
+  - responses alert subscribers when request is not accepted (#607) ([chenjianmei111/go-data-transfer#607](https://github.com/chenjianmei111/go-data-transfer/pull/607))
   - feat(datatransfer): milestone 2 infrastructure
   - other tests passing
   - send data transfer response
@@ -551,7 +551,7 @@ Initial extracted release for Testnet Phase 2 (v0.1.0 + v0.1.1 were lotus tags p
   - remove unused fmt import in graphsync_test
   - cleanup for PR
   - tests passing
-  - Initiate push and pull requests (#536) ([filecoin-project/go-data-transfer#536](https://github.com/filecoin-project/go-data-transfer/pull/536))
+  - Initiate push and pull requests (#536) ([chenjianmei111/go-data-transfer#536](https://github.com/chenjianmei111/go-data-transfer/pull/536))
   - Fix tests
   - Respond to PR comments: * Make DataTransferRequest/Response be returned in from Net * Regenerate cbor_gen and fix the generator caller so it works better * Please the linters
   - Cleanup for PR, clarifying and additional comments
@@ -561,8 +561,8 @@ Initial extracted release for Testnet Phase 2 (v0.1.0 + v0.1.1 were lotus tags p
   - * Bring cbor-gen stuff into datatransfer package * make transferRequest private struct * add transferResponse + funcs * Rename VoucherID to VoucherType * more tests passing
   - WIP using CBOR encoding for dataxfermsg
   - feat(datatransfer): setup implementation path
-  - Duplicate comment ([filecoin-project/go-data-transfer#619](https://github.com/filecoin-project/go-data-transfer/pull/619))
-  - fix typo ([filecoin-project/go-data-transfer#621](https://github.com/filecoin-project/go-data-transfer/pull/621))
+  - Duplicate comment ([chenjianmei111/go-data-transfer#619](https://github.com/chenjianmei111/go-data-transfer/pull/619))
+  - fix typo ([chenjianmei111/go-data-transfer#621](https://github.com/chenjianmei111/go-data-transfer/pull/621))
   - fix types typo
   - refactor(datatransfer): implement style fixes
   - refactor(deals): move type instantiation to modules
@@ -586,5 +586,5 @@ Initial extracted release for Testnet Phase 2 (v0.1.0 + v0.1.1 were lotus tags p
 
 Would you like to contribute to this repo and don’t know how? Here are a few places you can get started:
 
-- Check out the [Contributing Guidelines](https://github.com/filecoin-project/go-data-transfer/blob/master/CONTRIBUTING.md)
-- Look for issues with the `good-first-issue` label in [go-fil-markets](https://github.com/filecoin-project/go-data-transfer/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3A%22e-good-first-issue%22+)
+- Check out the [Contributing Guidelines](https://github.com/chenjianmei111/go-data-transfer/blob/master/CONTRIBUTING.md)
+- Look for issues with the `good-first-issue` label in [go-fil-markets](https://github.com/chenjianmei111/go-data-transfer/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3A%22e-good-first-issue%22+)

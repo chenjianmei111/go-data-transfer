@@ -12,15 +12,15 @@ import (
 	cbg "github.com/whyrusleeping/cbor-gen"
 	"golang.org/x/xerrors"
 
-	versioning "github.com/filecoin-project/go-ds-versioning/pkg"
-	versionedfsm "github.com/filecoin-project/go-ds-versioning/pkg/fsm"
-	"github.com/filecoin-project/go-statemachine/fsm"
+	versioning "github.com/chenjianmei111/go-ds-versioning/pkg"
+	versionedfsm "github.com/chenjianmei111/go-ds-versioning/pkg/fsm"
+	"github.com/chenjianmei111/go-statemachine/fsm"
 
-	datatransfer "github.com/filecoin-project/go-data-transfer"
-	"github.com/filecoin-project/go-data-transfer/channels/internal"
-	"github.com/filecoin-project/go-data-transfer/channels/internal/migrations"
-	"github.com/filecoin-project/go-data-transfer/cidlists"
-	"github.com/filecoin-project/go-data-transfer/encoding"
+	datatransfer "github.com/chenjianmei111/go-data-transfer"
+	"github.com/chenjianmei111/go-data-transfer/channels/internal"
+	"github.com/chenjianmei111/go-data-transfer/channels/internal/migrations"
+	"github.com/chenjianmei111/go-data-transfer/cidlists"
+	"github.com/chenjianmei111/go-data-transfer/encoding"
 )
 
 type DecoderByTypeFunc func(identifier datatransfer.TypeIdentifier) (encoding.Decoder, bool)
