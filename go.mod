@@ -28,8 +28,8 @@ require (
 	github.com/ipld/go-ipld-prime v0.5.1-0.20201021195245-109253e8a018
 	github.com/jbenet/go-random v0.0.0-20190219211222-123a90aedc0c
 	github.com/jpillora/backoff v1.0.0
-	github.com/libp2p/go-libp2p v0.13.0
-	github.com/libp2p/go-libp2p-core v0.8.5
+	github.com/libp2p/go-libp2p v0.12.0
+	github.com/libp2p/go-libp2p-core v0.7.0
 	github.com/stretchr/testify v1.7.0
 	github.com/whyrusleeping/cbor-gen v0.0.0-20210303213153-67a261a1d291
 	go.uber.org/atomic v1.7.0
